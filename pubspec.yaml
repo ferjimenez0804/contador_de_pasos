@@ -1,0 +1,40 @@
+name: contador_de_pasos
+description: FitPulse - Fitness App con sensores y GPS (UPFIM, Desarrollo de Aplicaciones Móviles).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  crypto: ^3.0.5
+  intl: ^0.19.0
+  local_auth: ^2.3.0
+  permission_handler: ^11.3.1
+  geolocator: ^13.0.2
+  pedometer: ^4.0.2
+  sensors_plus: ^6.1.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#FF5A1F"
+  adaptive_icon_foreground: "assets/icon/icon_fg.png"
